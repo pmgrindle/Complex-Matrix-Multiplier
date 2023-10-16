@@ -1,0 +1,1264 @@
+SCHM0106
+
+HEADER
+{
+ FREEID 115
+ VARIABLES
+ {
+  #ARCHITECTURE="TB_ARCHITECTURE"
+  #BLOCKTABLE_FILE="#HDL2DIAGRAM.bde"
+  #DEFAULT_RANGE0="<range<index=\"0\"><name=\"addrin_rdcol\"><left=\"1\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #DEFAULT_RANGE1="<range<index=\"0\"><name=\"addrin_rdrow\"><left=\"1\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #DEFAULT_RANGE2="<range<index=\"0\"><name=\"addrin_wrcol\"><left=\"1\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #DEFAULT_RANGE3="<range<index=\"0\"><name=\"addrin_wrrow\"><left=\"1\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #DEFAULT_RANGE4="<range<index=\"0\"><name=\"ctrl\"><left=\"1\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #DEFAULT_RANGE5="<range<index=\"0\"><name=\"datain_im\"><left=\"19\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #DEFAULT_RANGE6="<range<index=\"0\"><name=\"datain_re\"><left=\"19\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #DEFAULT_RANGE7="<range<index=\"0\"><name=\"qout_im\"><left=\"19\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #DEFAULT_RANGE8="<range<index=\"0\"><name=\"qout_re\"><left=\"19\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #ENTITY="mult_tb"
+  #LANGUAGE="VHDL"
+  AUTHOR="Paul Grindle"
+  COMPANY="Unemployment, Inc."
+  CREATIONDATE="5/5/2023"
+  SOURCE=".\\src\\multiplier_tb.vhd"
+ }
+ SYMBOL "#default" "multiplier" "multiplier"
+ {
+  HEADER
+  {
+   VARIABLES
+   {
+    #CUSTOM_NAME=""
+    #HDL_ENTRIES=
+"library IEEE;\n"+
+"use IEEE.std_logic_1164.all;"
+    #LANGUAGE="VHDL"
+    #MODIFIED="1683314548"
+    #MODIFIED_USEC="964542"
+    #NAME="multiplier"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="e2783a51-6a1e-4a53-bb6c-40ad5c547f61"
+   }
+  }
+  PAGE "" 
+  {
+   PAGEHEADER
+   {
+    RECT (0,0,260,400)
+    FREEID 24
+   }
+   
+   BODY
+   {
+    RECT  1, -1, 0
+    {
+     VARIABLES
+     {
+      #OUTLINE_FILLING="1"
+     }
+     AREA (20,0,240,400)
+    }
+    TEXT  3, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,28,65,52)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 2
+    }
+    TEXT  5, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,68,79,92)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 4
+    }
+    TEXT  7, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,108,117,132)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 6
+    }
+    TEXT  9, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,148,206,172)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 8
+    }
+    TEXT  11, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,188,197,212)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 10
+    }
+    TEXT  13, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,228,208,252)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 12
+    }
+    TEXT  15, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,268,199,292)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 14
+    }
+    TEXT  17, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,308,176,332)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 16
+    }
+    TEXT  19, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,348,179,372)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 18
+    }
+    TEXT  21, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (100,28,235,52)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 20
+    }
+    TEXT  23, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (97,68,235,92)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 22
+    }
+    PIN  2, 0, 0
+    {
+     COORD (0,40)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="CLK"
+      #SIDE="left"
+      #VHDL_TYPE="STD_LOGIC"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  4, 0, 0
+    {
+     COORD (0,80)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="MSEL"
+      #SIDE="left"
+      #VHDL_TYPE="STD_LOGIC"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  6, 0, 0
+    {
+     COORD (0,120)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="CTRL(1:0)"
+      #SIDE="left"
+      #VHDL_TYPE="STD_LOGIC_VECTOR"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  8, 0, 0
+    {
+     COORD (0,160)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="ADDRIN_rdRow(1:0)"
+      #SIDE="left"
+      #VHDL_TYPE="STD_LOGIC_VECTOR"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  10, 0, 0
+    {
+     COORD (0,200)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="ADDRIN_rdCol(1:0)"
+      #SIDE="left"
+      #VHDL_TYPE="STD_LOGIC_VECTOR"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  12, 0, 0
+    {
+     COORD (0,240)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="ADDRIN_wrRow(1:0)"
+      #SIDE="left"
+      #VHDL_TYPE="STD_LOGIC_VECTOR"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  14, 0, 0
+    {
+     COORD (0,280)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="ADDRIN_wrCol(1:0)"
+      #SIDE="left"
+      #VHDL_TYPE="STD_LOGIC_VECTOR"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  16, 0, 0
+    {
+     COORD (0,320)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="DATAIN_re(19:0)"
+      #SIDE="left"
+      #VHDL_TYPE="STD_LOGIC_VECTOR"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  18, 0, 0
+    {
+     COORD (0,360)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="DATAIN_im(19:0)"
+      #SIDE="left"
+      #VHDL_TYPE="STD_LOGIC_VECTOR"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  20, 0, 0
+    {
+     COORD (260,40)
+     VARIABLES
+     {
+      #DIRECTION="OUT"
+      #LENGTH="20"
+      #NAME="QOUT_re(19:0)"
+      #SIDE="right"
+      #VHDL_TYPE="STD_LOGIC_VECTOR"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (-20,0) )
+     }
+    }
+    PIN  22, 0, 0
+    {
+     COORD (260,80)
+     VARIABLES
+     {
+      #DIRECTION="OUT"
+      #LENGTH="20"
+      #NAME="QOUT_im(19:0)"
+      #SIDE="right"
+      #VHDL_TYPE="STD_LOGIC_VECTOR"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (-20,0) )
+     }
+    }
+   }
+  }
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  PAGESIZE (2680,1380)
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  VHDLDESIGNUNITHDR  1, 0, 0
+  {
+   LABEL "Design Unit Header"
+   TEXT 
+"library ieee;\n"+
+"use ieee.std_logic_1164.all;"
+   RECT (220,260,620,439)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  INSTANCE  2, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="multiplier"
+    #CUSTOM_NAME=""
+    #LIBRARY="#default"
+    #REFERENCE="MatrixMult"
+    #SYMBOL="multiplier"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="e2783a51-6a1e-4a53-bb6c-40ad5c547f61"
+   }
+   COORD (2000,340)
+   VERTEXES ( (2,26), (4,49), (6,37), (8,28), (10,40), (12,31), (14,34), (16,46), (18,43), (20,22), (22,19) )
+  }
+  PROCESS  3, 0, 0
+  {
+   LABEL "STIMULUS"
+   TEXT 
+"STIMULUS : process\n"+
+"                       begin\n"+
+"                         MSEL <= '0';\n"+
+"                         CTRL <= \"01\";\n"+
+"                         ADDRIN_rdRow <= \"00\";\n"+
+"                         ADDRIN_rdCol <= \"00\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"00\";\n"+
+"                         ADDRIN_wrCol <= \"00\";\n"+
+"                         DATAIN_re <= \"00000000000011010011\";\n"+
+"                         DATAIN_im <= \"00000000000011001000\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"00\";\n"+
+"                         ADDRIN_wrCol <= \"01\";\n"+
+"                         DATAIN_re <= \"00000000000011010101\";\n"+
+"                         DATAIN_im <= \"00000000000000011110\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"00\";\n"+
+"                         ADDRIN_wrCol <= \"10\";\n"+
+"                         DATAIN_re <= \"00000000000000100011\";\n"+
+"                         DATAIN_im <= \"00000000000000011010\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"00\";\n"+
+"                         ADDRIN_wrCol <= \"11\";\n"+
+"                         DATAIN_re <= \"00000000000000100000\";\n"+
+"                         DATAIN_im <= \"00000000000001010011\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"01\";\n"+
+"                         ADDRIN_wrCol <= \"00\";\n"+
+"                         DATAIN_re <= \"00000000000001100011\";\n"+
+"                         DATAIN_im <= \"00000000000011000011\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"01\";\n"+
+"                         ADDRIN_wrCol <= \"01\";\n"+
+"                         DATAIN_re <= \"00000000000010111010\";\n"+
+"                         DATAIN_im <= \"00000000000000110011\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"01\";\n"+
+"                         ADDRIN_wrCol <= \"10\";\n"+
+"                         DATAIN_re <= \"00000000000011100110\";\n"+
+"                         DATAIN_im <= \"00000000000011100100\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"01\";\n"+
+"                         ADDRIN_wrCol <= \"11\";\n"+
+"                         DATAIN_re <= \"00000000000000110100\";\n"+
+"                         DATAIN_im <= \"00000000000010000001\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"10\";\n"+
+"                         ADDRIN_wrCol <= \"00\";\n"+
+"                         DATAIN_re <= \"00000000000001000101\";\n"+
+"                         DATAIN_im <= \"00000000000010010100\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"10\";\n"+
+"                         ADDRIN_wrCol <= \"01\";\n"+
+"                         DATAIN_re <= \"00000000000000100000\";\n"+
+"                         DATAIN_im <= \"00000000000010111001\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"10\";\n"+
+"                         ADDRIN_wrCol <= \"10\";\n"+
+"                         DATAIN_re <= \"00000000000011100001\";\n"+
+"                         DATAIN_im <= \"00000000000010110100\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"10\";\n"+
+"                         ADDRIN_wrCol <= \"11\";\n"+
+"                         DATAIN_re <= \"00000000000001010101\";\n"+
+"                         DATAIN_im <= \"00000000000011100100\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"11\";\n"+
+"                         ADDRIN_wrCol <= \"00\";\n"+
+"                         DATAIN_re <= \"00000000000001001111\";\n"+
+"                         DATAIN_im <= \"00000000000000100001\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"11\";\n"+
+"                         ADDRIN_wrCol <= \"01\";\n"+
+"                         DATAIN_re <= \"00000000000010011010\";\n"+
+"                         DATAIN_im <= \"00000000000010010000\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"11\";\n"+
+"                         ADDRIN_wrCol <= \"10\";\n"+
+"                         DATAIN_re <= \"00000000000011110000\";\n"+
+"                         DATAIN_im <= \"00000000000010000001\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"11\";\n"+
+"                         ADDRIN_wrCol <= \"11\";\n"+
+"                         DATAIN_re <= \"00000000000010110111\";\n"+
+"                         DATAIN_im <= \"00000000000000010000\";\n"+
+"                         wait for 20 ns;\n"+
+"                         MSEL <= '1';\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"00\";\n"+
+"                         ADDRIN_wrCol <= \"00\";\n"+
+"                         DATAIN_re <= \"00000000000000110101\";\n"+
+"                         DATAIN_im <= \"00000000000010110110\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"00\";\n"+
+"                         ADDRIN_wrCol <= \"01\";\n"+
+"                         DATAIN_re <= \"00000000000010011111\";\n"+
+"                         DATAIN_im <= \"00000000000000111010\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"00\";\n"+
+"                         ADDRIN_wrCol <= \"10\";\n"+
+"                         DATAIN_re <= \"00000000000010101110\";\n"+
+"                         DATAIN_im <= \"00000000000011011111\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"00\";\n"+
+"                         ADDRIN_wrCol <= \"11\";\n"+
+"                         DATAIN_re <= \"00000000000001001011\";\n"+
+"                         DATAIN_im <= \"00000000000010100000\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"01\";\n"+
+"                         ADDRIN_wrCol <= \"00\";\n"+
+"                         DATAIN_re <= \"00000000000011010011\";\n"+
+"                         DATAIN_im <= \"00000000000010101001\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"01\";\n"+
+"                         ADDRIN_wrCol <= \"01\";\n"+
+"                         DATAIN_re <= \"00000000000010111010\";\n"+
+"                         DATAIN_im <= \"00000000000001011110\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"01\";\n"+
+"                         ADDRIN_wrCol <= \"10\";\n"+
+"                         DATAIN_re <= \"00000000000010000111\";\n"+
+"                         DATAIN_im <= \"00000000000000000101\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"01\";\n"+
+"                         ADDRIN_wrCol <= \"11\";\n"+
+"                         DATAIN_re <= \"00000000000010111011\";\n"+
+"                         DATAIN_im <= \"00000000000010110011\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"10\";\n"+
+"                         ADDRIN_wrCol <= \"00\";\n"+
+"                         DATAIN_re <= \"00000000000000100111\";\n"+
+"                         DATAIN_im <= \"00000000000001000000\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"10\";\n"+
+"                         ADDRIN_wrCol <= \"01\";\n"+
+"                         DATAIN_re <= \"00000000000010001101\";\n"+
+"                         DATAIN_im <= \"00000000000011011010\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"10\";\n"+
+"                         ADDRIN_wrCol <= \"10\";\n"+
+"                         DATAIN_re <= \"00000000000001101110\";\n"+
+"                         DATAIN_im <= \"00000000000000100111\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"10\";\n"+
+"                         ADDRIN_wrCol <= \"11\";\n"+
+"                         DATAIN_re <= \"00000000000010111110\";\n"+
+"                         DATAIN_im <= \"00000000000011000100\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"11\";\n"+
+"                         ADDRIN_wrCol <= \"00\";\n"+
+"                         DATAIN_re <= \"00000000000011000101\";\n"+
+"                         DATAIN_im <= \"00000000000011101100\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"11\";\n"+
+"                         ADDRIN_wrCol <= \"01\";\n"+
+"                         DATAIN_re <= \"00000000000011111001\";\n"+
+"                         DATAIN_im <= \"00000000000011101011\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"11\";\n"+
+"                         ADDRIN_wrCol <= \"10\";\n"+
+"                         DATAIN_re <= \"00000000000001011011\";\n"+
+"                         DATAIN_im <= \"00000000000001011000\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_wrRow <= \"11\";\n"+
+"                         ADDRIN_wrCol <= \"11\";\n"+
+"                         DATAIN_re <= \"00000000000001101111\";\n"+
+"                         DATAIN_im <= \"00000000000000000110\";\n"+
+"                         wait for 20 ns;\n"+
+"                         CTRL <= \"00\";\n"+
+"                         wait for 20 ns;\n"+
+"                         DATAIN_re <= \"00000000000000000000\";\n"+
+"                         DATAIN_im <= \"00000000000000000000\";\n"+
+"                         ADDRIN_wrRow <= \"00\";\n"+
+"                         ADDRIN_wrCol <= \"00\";\n"+
+"                         MSEL <= '0';\n"+
+"                         ADDRIN_rdRow <= \"00\";\n"+
+"                         ADDRIN_rdCol <= \"00\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"01\";\n"+
+"                         ADDRIN_rdCol <= \"00\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"10\";\n"+
+"                         ADDRIN_rdCol <= \"00\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"11\";\n"+
+"                         ADDRIN_rdCol <= \"00\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"00\";\n"+
+"                         ADDRIN_rdCol <= \"01\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"01\";\n"+
+"                         ADDRIN_rdCol <= \"01\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"10\";\n"+
+"                         ADDRIN_rdCol <= \"01\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"11\";\n"+
+"                         ADDRIN_rdCol <= \"01\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"00\";\n"+
+"                         ADDRIN_rdCol <= \"10\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"01\";\n"+
+"                         ADDRIN_rdCol <= \"10\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"10\";\n"+
+"                         ADDRIN_rdCol <= \"10\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"11\";\n"+
+"                         ADDRIN_rdCol <= \"10\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"00\";\n"+
+"                         ADDRIN_rdCol <= \"11\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"01\";\n"+
+"                         ADDRIN_rdCol <= \"11\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"10\";\n"+
+"                         ADDRIN_rdCol <= \"11\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"11\";\n"+
+"                         ADDRIN_rdCol <= \"11\";\n"+
+"                         wait for 20 ns;\n"+
+"                         MSEL <= '1';\n"+
+"                         ADDRIN_rdRow <= \"00\";\n"+
+"                         ADDRIN_rdCol <= \"00\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"01\";\n"+
+"                         ADDRIN_rdCol <= \"00\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"10\";\n"+
+"                         ADDRIN_rdCol <= \"00\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"11\";\n"+
+"                         ADDRIN_rdCol <= \"00\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"00\";\n"+
+"                         ADDRIN_rdCol <= \"01\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"01\";\n"+
+"                         ADDRIN_rdCol <= \"01\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"10\";\n"+
+"                         ADDRIN_rdCol <= \"01\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"11\";\n"+
+"                         ADDRIN_rdCol <= \"01\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"00\";\n"+
+"                         ADDRIN_rdCol <= \"10\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"01\";\n"+
+"                         ADDRIN_rdCol <= \"10\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"10\";\n"+
+"                         ADDRIN_rdCol <= \"10\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"11\";\n"+
+"                         ADDRIN_rdCol <= \"10\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"00\";\n"+
+"                         ADDRIN_rdCol <= \"11\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"01\";\n"+
+"                         ADDRIN_rdCol <= \"11\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"10\";\n"+
+"                         ADDRIN_rdCol <= \"11\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"11\";\n"+
+"                         ADDRIN_rdCol <= \"11\";\n"+
+"                         wait for 20 ns;\n"+
+"                         CTRL <= \"10\";\n"+
+"                         MSEL <= '0';\n"+
+"                         wait for 750 ns;\n"+
+"                         ADDRIN_rdRow <= \"00\";\n"+
+"                         ADDRIN_rdCol <= \"00\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"01\";\n"+
+"                         ADDRIN_rdCol <= \"00\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"10\";\n"+
+"                         ADDRIN_rdCol <= \"00\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"11\";\n"+
+"                         ADDRIN_rdCol <= \"00\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"00\";\n"+
+"                         ADDRIN_rdCol <= \"01\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"01\";\n"+
+"                         ADDRIN_rdCol <= \"01\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"10\";\n"+
+"                         ADDRIN_rdCol <= \"01\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"11\";\n"+
+"                         ADDRIN_rdCol <= \"01\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"00\";\n"+
+"                         ADDRIN_rdCol <= \"10\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"01\";\n"+
+"                         ADDRIN_rdCol <= \"10\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"10\";\n"+
+"                         ADDRIN_rdCol <= \"10\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"11\";\n"+
+"                         ADDRIN_rdCol <= \"10\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"00\";\n"+
+"                         ADDRIN_rdCol <= \"11\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"01\";\n"+
+"                         ADDRIN_rdCol <= \"11\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"10\";\n"+
+"                         ADDRIN_rdCol <= \"11\";\n"+
+"                         wait for 20 ns;\n"+
+"                         ADDRIN_rdRow <= \"11\";\n"+
+"                         ADDRIN_rdCol <= \"11\";\n"+
+"                         wait for 20 ns;\n"+
+"                         END_SIM <= TRUE;\n"+
+"                         wait;\n"+
+"                       end process;\n"+
+"                      "
+   RECT (680,240,1081,640)
+   MARGINS (20,20)
+   SYNTAXCOLORED
+   SHOWTEXT
+   CORNER 10
+   VTX (  52, 55, 58, 61, 64, 67, 70, 73, 77 )
+   VARIABLES
+   {
+    #UPDATE_SENS_LIST="0"
+   }
+  }
+  PROCESS  4, 0, 0
+  {
+   LABEL "CLOCK_CLK"
+   TEXT 
+"CLOCK_CLK : process\n"+
+"                       begin\n"+
+"                         if END_SIM = FALSE then\n"+
+"                            CLK <= '0';\n"+
+"                            wait for 5 ns;\n"+
+"                         else \n"+
+"                            wait;\n"+
+"                         end if;\n"+
+"                         if END_SIM = FALSE then\n"+
+"                            CLK <= '1';\n"+
+"                            wait for 5 ns;\n"+
+"                         else \n"+
+"                            wait;\n"+
+"                         end if;\n"+
+"                       end process;\n"+
+"                      "
+   RECT (1340,360,1741,760)
+   MARGINS (20,20)
+   SYNTAXCOLORED
+   SHOWTEXT
+   CORNER 10
+   VTX (  25, 76 )
+   VARIABLES
+   {
+    #UPDATE_SENS_LIST="0"
+   }
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (2000,340,2000,340)
+   ALIGN 8
+   PARENT 2
+  }
+  TEXT  6, 0, 0
+  {
+   TEXT "$#COMPONENT"
+   RECT (2000,740,2000,740)
+   PARENT 2
+  }
+  NET BUS  7, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="QOUT_im(19:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET BUS  8, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="QOUT_re(19:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET BUS  9, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="ADDRIN_rdCol(1:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET BUS  10, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="ADDRIN_rdRow(1:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET BUS  11, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="ADDRIN_wrCol(1:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET BUS  12, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="ADDRIN_wrRow(1:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET WIRE  13, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="CLK"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET BUS  14, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="CTRL(1:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET BUS  15, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="DATAIN_im(19:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET BUS  16, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="DATAIN_re(19:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET WIRE  17, 0, 0
+  {
+   VARIABLES
+   {
+    #INITIAL_VALUE="FALSE"
+    #NAME="END_SIM"
+    #VHDL_TYPE="BOOLEAN"
+   }
+  }
+  NET WIRE  18, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="MSEL"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  VTX  19, 0, 0
+  {
+   COORD (2260,420)
+  }
+  VTX  20, 0, 0
+  {
+   COORD (2320,420)
+  }
+  BUS  21, 0, 0
+  {
+   NET 7
+   VTX 19, 20
+  }
+  VTX  22, 0, 0
+  {
+   COORD (2260,380)
+  }
+  VTX  23, 0, 0
+  {
+   COORD (2320,380)
+  }
+  BUS  24, 0, 0
+  {
+   NET 8
+   VTX 22, 23
+  }
+  VTX  25, 0, 0
+  {
+   COORD (1741,380)
+  }
+  VTX  26, 0, 0
+  {
+   COORD (2000,380)
+  }
+  WIRE  27, 0, 0
+  {
+   NET 13
+   VTX 25, 26
+  }
+  VTX  28, 0, 0
+  {
+   COORD (2000,500)
+  }
+  VTX  29, 0, 0
+  {
+   COORD (1840,500)
+  }
+  BUS  30, 0, 0
+  {
+   NET 10
+   VTX 28, 29
+  }
+  VTX  31, 0, 0
+  {
+   COORD (2000,580)
+  }
+  VTX  32, 0, 0
+  {
+   COORD (1860,580)
+  }
+  BUS  33, 0, 0
+  {
+   NET 12
+   VTX 31, 32
+  }
+  VTX  34, 0, 0
+  {
+   COORD (2000,620)
+  }
+  VTX  35, 0, 0
+  {
+   COORD (1880,620)
+  }
+  BUS  36, 0, 0
+  {
+   NET 11
+   VTX 34, 35
+  }
+  VTX  37, 0, 0
+  {
+   COORD (2000,460)
+  }
+  VTX  38, 0, 0
+  {
+   COORD (1900,460)
+  }
+  BUS  39, 0, 0
+  {
+   NET 14
+   VTX 37, 38
+  }
+  VTX  40, 0, 0
+  {
+   COORD (2000,540)
+  }
+  VTX  41, 0, 0
+  {
+   COORD (1920,540)
+  }
+  BUS  42, 0, 0
+  {
+   NET 9
+   VTX 40, 41
+  }
+  VTX  43, 0, 0
+  {
+   COORD (2000,700)
+  }
+  VTX  44, 0, 0
+  {
+   COORD (1940,700)
+  }
+  BUS  45, 0, 0
+  {
+   NET 15
+   VTX 43, 44
+  }
+  VTX  46, 0, 0
+  {
+   COORD (2000,660)
+  }
+  VTX  47, 0, 0
+  {
+   COORD (1960,660)
+  }
+  BUS  48, 0, 0
+  {
+   NET 16
+   VTX 46, 47
+  }
+  VTX  49, 0, 0
+  {
+   COORD (2000,420)
+  }
+  VTX  50, 0, 0
+  {
+   COORD (1980,420)
+  }
+  WIRE  51, 0, 0
+  {
+   NET 18
+   VTX 49, 50
+  }
+  VTX  52, 0, 0
+  {
+   COORD (1081,540)
+  }
+  VTX  53, 0, 0
+  {
+   COORD (1160,540)
+  }
+  BUS  54, 0, 0
+  {
+   NET 10
+   VTX 52, 53
+  }
+  VTX  55, 0, 0
+  {
+   COORD (1081,460)
+  }
+  VTX  56, 0, 0
+  {
+   COORD (1180,460)
+  }
+  BUS  57, 0, 0
+  {
+   NET 12
+   VTX 55, 56
+  }
+  VTX  58, 0, 0
+  {
+   COORD (1081,300)
+  }
+  BUS  60, 0, 0
+  {
+   NET 11
+   VTX 58, 82
+  }
+  VTX  61, 0, 0
+  {
+   COORD (1081,500)
+  }
+  VTX  62, 0, 0
+  {
+   COORD (1220,500)
+  }
+  BUS  63, 0, 0
+  {
+   NET 14
+   VTX 61, 62
+  }
+  VTX  64, 0, 0
+  {
+   COORD (1081,260)
+  }
+  BUS  66, 0, 0
+  {
+   NET 9
+   VTX 64, 79
+  }
+  VTX  67, 0, 0
+  {
+   COORD (1081,340)
+  }
+  VTX  68, 0, 0
+  {
+   COORD (1260,340)
+  }
+  BUS  69, 0, 0
+  {
+   NET 15
+   VTX 67, 68
+  }
+  VTX  70, 0, 0
+  {
+   COORD (1081,420)
+  }
+  VTX  71, 0, 0
+  {
+   COORD (1280,420)
+  }
+  BUS  72, 0, 0
+  {
+   NET 16
+   VTX 70, 71
+  }
+  VTX  73, 0, 0
+  {
+   COORD (1081,580)
+  }
+  VTX  74, 0, 0
+  {
+   COORD (1300,580)
+  }
+  WIRE  75, 0, 0
+  {
+   NET 18
+   VTX 73, 74
+  }
+  VTX  76, 0, 0
+  {
+   COORD (1340,380)
+  }
+  VTX  77, 0, 0
+  {
+   COORD (1081,380)
+  }
+  WIRE  78, 0, 0
+  {
+   NET 17
+   VTX 76, 77
+  }
+  VTX  79, 0, 0
+  {
+   COORD (1920,260)
+  }
+  VTX  80, 0, 0
+  {
+   COORD (1840,340)
+  }
+  VTX  81, 0, 0
+  {
+   COORD (1160,340)
+  }
+  VTX  82, 0, 0
+  {
+   COORD (1880,300)
+  }
+  VTX  83, 0, 0
+  {
+   COORD (1860,320)
+  }
+  VTX  84, 0, 0
+  {
+   COORD (1180,320)
+  }
+  VTX  85, 0, 0
+  {
+   COORD (1900,280)
+  }
+  VTX  86, 0, 0
+  {
+   COORD (1220,280)
+  }
+  VTX  87, 0, 0
+  {
+   COORD (1940,240)
+  }
+  VTX  88, 0, 0
+  {
+   COORD (1260,240)
+  }
+  VTX  89, 0, 0
+  {
+   COORD (1960,220)
+  }
+  VTX  90, 0, 0
+  {
+   COORD (1280,220)
+  }
+  VTX  91, 0, 0
+  {
+   COORD (1980,200)
+  }
+  VTX  92, 0, 0
+  {
+   COORD (1300,200)
+  }
+  BUS  94, 0, 0
+  {
+   NET 10
+   VTX 80, 81
+  }
+  BUS  96, 0, 0
+  {
+   NET 12
+   VTX 83, 84
+  }
+  BUS  97, 0, 0
+  {
+   NET 14
+   VTX 85, 86
+  }
+  BUS  98, 0, 0
+  {
+   NET 15
+   VTX 87, 88
+  }
+  BUS  99, 0, 0
+  {
+   NET 16
+   VTX 89, 90
+  }
+  WIRE  100, 0, 0
+  {
+   NET 18
+   VTX 91, 92
+  }
+  BUS  101, 0, 0
+  {
+   NET 9
+   VTX 79, 41
+  }
+  BUS  102, 0, 0
+  {
+   NET 10
+   VTX 80, 29
+  }
+  BUS  103, 0, 0
+  {
+   NET 10
+   VTX 81, 53
+  }
+  BUS  104, 0, 0
+  {
+   NET 11
+   VTX 82, 35
+  }
+  BUS  105, 0, 0
+  {
+   NET 12
+   VTX 83, 32
+  }
+  BUS  106, 0, 0
+  {
+   NET 12
+   VTX 84, 56
+  }
+  BUS  107, 0, 0
+  {
+   NET 14
+   VTX 85, 38
+  }
+  BUS  108, 0, 0
+  {
+   NET 14
+   VTX 86, 62
+  }
+  BUS  109, 0, 0
+  {
+   NET 15
+   VTX 87, 44
+  }
+  BUS  110, 0, 0
+  {
+   NET 15
+   VTX 88, 68
+  }
+  BUS  111, 0, 0
+  {
+   NET 16
+   VTX 89, 47
+  }
+  BUS  112, 0, 0
+  {
+   NET 16
+   VTX 90, 71
+  }
+  WIRE  113, 0, 0
+  {
+   NET 18
+   VTX 91, 50
+  }
+  WIRE  114, 0, 0
+  {
+   NET 18
+   VTX 92, 74
+  }
+ }
+ 
+}
+

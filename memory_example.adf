@@ -1,0 +1,205 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=memory_example
+[$LibMap$]
+example=.
+memory_example=.
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+WireDelay=2
+NoTchkMsg=0
+NoTimingChecks=0
+HESPrepare=0
+CreateASDBDatabase=0
+StackMemorySize=32
+RetvalMemorySize=32
+EnableCallbacks=0
+VitalAccel=1
+DisableVitalMsg=0
+IMPL_TOOL=
+SYNTH_TOOL=MV_VIVADO_SYNTH_2021_2
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+VerilogDirsChanged=1
+SimulationAccessReadModules=
+SimulationAccessReadWriteModules=
+SimulationAccessReadPaths=
+SimulationAccessReadWritePaths=
+SimulationAccessNetsPaths=
+SimulationAccessNetsModules=
+FUNC_LIB=memory_example
+fileopenfolder=C:\Users\pgrin\Documents\active_hdl_student\memory_example\src
+CSYNTH_STATUS=NONE
+CSYNTH_TOOL=
+PHYSSYNTH_TOOL=
+FAMILY=Xilinx2021x Artix_UltraScale+
+PHYSSYNTH_STATUS=NONE
+FLOWTOOLS=IMPL_WITH_SYNTH
+SYNTH_STATUS=NONE
+IMPL_STATUS=NONE
+RUN_MODE_SYNTH=1
+PCBINTERFACE_STATUS=NONE
+ON_SERVERFARM_SIM=0
+FUNCTIONAL_SIMULATION_STATUS=
+POSTSYNTHESIS_SIMULATION_STATUS=
+TIMING_SIMULATION_STATUS=
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=mult_tb|TB_ARCHITECTURE|0
+ShowHide=ShowTopLevel
+Selected=
+[Library]
+memory_example=.\memory_example.LIB
+[LocalVhdlSets]
+CompileWithDebug=1
+DisableVHDL87Key=0
+EnableVHDL93Key=0
+EnableVHDL2002Key=1
+EnableVHDL2006Key=0
+EnableVHDL2008Key=0
+NetlistCompilation=1
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+AdditionalOptions=
+IncrementalCompilation=0
+EnableVHDL2019Key=0
+ReorderOnFirstRebuild=1
+ElaborationAfterCompilation=0
+PrintErrWarnOnly=0
+GenMultiplatformLib=0
+VhdlPreservePortComments=0
+[LocalVerilogSets]
+EnableDebug=0
+EnableSLP=1
+EnableExpressionCoverage=0
+VerilogLanguage=5
+Strict=0
+Strict2001=
+SystemVerilog3=
+StrictLRMMode=
+VerilogNoSpecify=0
+WarningPrnLevel=1
+ErrorOutputLimit=0
+OptimizationLevel=2
+ProtectLevel=0
+AdditionalOptions=
+[Files]
+/Readme.txt=-1
+/matrix.vhd=-1
+/matrixlib.vhd=-1
+/multiplier.vhd=-1
+/ram_tb.vhd=-1
+/multiplier_tb.vhd=-1
+/runme.do=-1
+/..\..\..\activehdlstudent\memory_example\src\realimaginary_partial.asdb=-1
+/..\..\..\activehdlstudent\memory_example\src\realimaginary_partial.awc=-1
+/..\..\..\activehdlstudent\memory_example\src\matrix_partial.asdb=-1
+/..\..\..\activehdlstudent\memory_example\src\matrix_partial.awc=-1
+/mult_matrix_rw.asdb=-1
+/mult_matrix_rw.awc=-1
+/matrix_mult_600nsDelay.asdb=-1
+/matrix_mult_600nsDelay.awc=-1
+/fullmultiplication.asdb=-1
+/fullmultiplication.awc=-1
+/matrix.bde=-1
+/multiplier.bde=-1
+/mult_tb.bde=-1
+[Files.Data]
+.\src\Readme.txt=Text File
+.\src\matrix.vhd=VHDL Source Code
+.\src\matrixlib.vhd=VHDL Source Code
+.\src\multiplier.vhd=VHDL Source Code
+.\src\ram_tb.vhd=VHDL Test Bench
+.\src\multiplier_tb.vhd=VHDL Source Code
+.\src\runme.do=Macro
+.\..\..\activehdlstudent\memory_example\src\realimaginary_partial.asdb=Accelerated Waveform File
+.\..\..\activehdlstudent\memory_example\src\realimaginary_partial.awc=Accelerated Waveform Configuration
+.\..\..\activehdlstudent\memory_example\src\matrix_partial.asdb=Accelerated Waveform File
+.\..\..\activehdlstudent\memory_example\src\matrix_partial.awc=Accelerated Waveform Configuration
+.\src\mult_matrix_rw.asdb=Accelerated Waveform File
+.\src\mult_matrix_rw.awc=Accelerated Waveform Configuration
+.\src\matrix_mult_600nsDelay.asdb=Accelerated Waveform File
+.\src\matrix_mult_600nsDelay.awc=Accelerated Waveform Configuration
+.\src\fullmultiplication.asdb=Accelerated Waveform File
+.\src\fullmultiplication.awc=Accelerated Waveform Configuration
+.\src\matrix.bde=Block Diagram
+.\src\multiplier.bde=Block Diagram
+.\src\mult_tb.bde=Block Diagram
+[SpecTracer]
+WindowVisible=0
+[folders]
+name0=ALINT-PRO Workspaces
+directory0=C:\Users\pgrin\Documents\active hdl student\memory_example\
+extension0=alintws
+name1=Coverage Databases
+directory1=C:\Users\pgrin\Documents\active hdl student\memory_example\
+extension1=acdb
+name2=Dll Libraries
+directory2=C:\Users\pgrin\Documents\active hdl student\memory_example\
+extension2=dll
+name3=Event Lists
+directory3=C:\Users\pgrin\Documents\active hdl student\memory_example\
+extension3=lst
+name4=HTML Files
+directory4=C:\Users\pgrin\Documents\active hdl student\memory_example\
+extension4=htm;html
+name5=Log Files
+directory5=C:\Users\pgrin\Documents\active hdl student\memory_example\
+extension5=log;htm;xml;txt
+name6=Matlab/Simulink Files
+directory6=C:\Users\pgrin\Documents\active hdl student\memory_example\
+extension6=m;mdl;slx
+name7=Memory Files
+directory7=C:\Users\pgrin\Documents\active hdl student\memory_example\
+extension7=mem;mif;hex
+name8=PDF Files
+directory8=C:\Users\pgrin\Documents\active hdl student\memory_example\
+extension8=pdf
+name9=Profiler Databases
+directory9=C:\Users\pgrin\Documents\active hdl student\memory_example\
+extension9=tbp
+name10=Script Files
+directory10=C:\Users\pgrin\Documents\active hdl student\memory_example\
+extension10=do;tcl;pl
+name11=Waveform Files
+directory11=C:\Users\pgrin\Documents\active hdl student\memory_example\
+extension11=asdb;awc;asdbc;asdbe
+[file_out:/matrix.bde]
+/..\compile\matrix.vhd=-1
+[file_out:/multiplier.bde]
+/..\compile\multiplier.vhd=-1
+[file_out:/mult_tb.bde]
+/..\compile\mult_tb.vhd=-1
+[SYNTHESIS]
+TOPLEVEL=
+FAMILY=Xilinx2021x Artix_UltraScale+
+DEVICE=
+SPEED=
+[PHYS_SYNTHESIS]
+FAMILY=Xilinx2021x Artix_UltraScale+
+DEVICE=
+SPEED=
+SCRIPTS_COPIED=0
+[IMPLEMENTATION]
+FLOW_STEPS_RESET=1
+FAMILY=Xilinx2021x Artix_UltraScale+
+DEVICE=
+SPEED=
+[PCB_INTERFACE]
+FAMILY=

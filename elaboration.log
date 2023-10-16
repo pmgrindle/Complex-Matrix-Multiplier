@@ -1,0 +1,40 @@
+Active-HDL 13.0.376.8320 2023-05-05 15:26:51
+
+Elaboration top modules:
+Architecture                  TB_ARCHITECTURE(mult_tb)
+
+
+-------------------------------------------------------------------------------------------------------
+Entity     | Architecture    | Library        | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------
+mult_tb    | TB_ARCHITECTURE | memory_example |      | 13.0.376.8320 (Windows64) | -dbg
+multiplier | mult_arch       | memory_example |      | 13.0.376.8320 (Windows64) | -dbg
+matrix     | matrix_arch     | memory_example |      | 13.0.376.8320 (Windows64) | -dbg
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+VHDL Package                 | Library        | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------
+standard                     | std            |      |                           | <unavailable>
+TEXTIO                       | std            |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164               | ieee           |      | 13.0.376.8320 (Windows64) |  -2008
+NUMERIC_STD                  | ieee           |      | 13.0.376.8320 (Windows64) |  -2008
+std_logic_arith              | ieee           |      | 13.0.376.8320 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED           | ieee           |      | 13.0.376.8320 (Windows64) | <unavailable>
+matrixpak                    | matrixlib      |      | 13.0.376.8320 (Windows64) | -O3
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Library                      | Comment
+-------------------------------------------------------------------------------------------------------
+ieee                         | Standard IEEE packages library
+matrixlib                    | None
+memory_example               | None
+std                          | Standard VHDL library
+-------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r mult_tb TB_ARCHITECTURE
+
+
+The performance of simulation is reduced. Version Student Edition

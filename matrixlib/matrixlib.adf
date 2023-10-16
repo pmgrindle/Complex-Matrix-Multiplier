@@ -1,0 +1,61 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=matrixlib
+[Settings]
+LANGUAGE=VHDL
+FLOW_TYPE=Schematic
+FAMILY=
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+REFRESH_FLOW=1
+[Library]
+matrixlib=.\matrixlib\matrixlib.LIB
+[$LibMap$]
+matrixlib=.
+[Files]
+/matrix.vhd=-1
+/matrixlib.vhd=-1
+[Files.Data]
+.\src\matrix.vhd=VHDL Source Code
+.\src\matrixlib.vhd=VHDL Source Code
+[folders]
+name0=ALINT-PRO Workspaces
+directory0=C:\Users\pgrin\Documents\active_hdl_student\memory_example\matrixlib\
+extension0=alintws
+name1=Coverage Databases
+directory1=C:\Users\pgrin\Documents\active_hdl_student\memory_example\matrixlib\
+extension1=acdb
+name2=Dll Libraries
+directory2=C:\Users\pgrin\Documents\active_hdl_student\memory_example\matrixlib\
+extension2=dll
+name3=Event Lists
+directory3=C:\Users\pgrin\Documents\active_hdl_student\memory_example\matrixlib\
+extension3=lst
+name4=HTML Files
+directory4=C:\Users\pgrin\Documents\active_hdl_student\memory_example\matrixlib\
+extension4=htm;html
+name5=Log Files
+directory5=C:\Users\pgrin\Documents\active_hdl_student\memory_example\matrixlib\
+extension5=log;htm;xml;txt
+name6=Matlab/Simulink Files
+directory6=C:\Users\pgrin\Documents\active_hdl_student\memory_example\
+extension6=m;mdl;slx
+name7=Memory Files
+directory7=C:\Users\pgrin\Documents\active_hdl_student\memory_example\matrixlib\
+extension7=mem;mif;hex
+name8=PDF Files
+directory8=C:\Users\pgrin\Documents\active_hdl_student\memory_example\matrixlib\
+extension8=pdf
+name9=Profiler Databases
+directory9=C:\Users\pgrin\Documents\active_hdl_student\memory_example\matrixlib\
+extension9=tbp
+name10=Script Files
+directory10=C:\Users\pgrin\Documents\active_hdl_student\memory_example\matrixlib\
+extension10=do;tcl;pl
+name11=Waveform Files
+directory11=C:\Users\pgrin\Documents\active_hdl_student\memory_example\matrixlib\
+extension11=asdb;awc;asdbc;asdbe

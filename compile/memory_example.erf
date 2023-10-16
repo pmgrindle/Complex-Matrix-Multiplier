@@ -1,0 +1,4 @@
+MESSAGE "File: C:/Users/pgrin/Documents/active_hdl_student/complex_matrix_multiplier/src/multiplier.vhd" 
+MESSAGE "Compile Entity "multiplier"" 
+MESSAGE "Compile Architecture "mult_arch" of Entity "multiplier"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

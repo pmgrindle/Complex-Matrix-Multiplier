@@ -1,0 +1,34 @@
+timestamp=1681226630317
+
+[~A]
+ModifyID=2
+Version=74
+
+[~MFT]
+0=12|0matrixlib.mgf|3008|0
+1=2|1matrixlib.mgf|1956|0
+2=0|2matrixlib.mgf|0|0
+3=1|3matrixlib.mgf|0|0
+
+[matrix]
+A/matrix_arch=21|../src/matrix.vhd|36|1*0
+BinW64/matrix_arch=3*0
+I=0*856
+I/matrix_arch=0*1786
+M=11|2|vef|1681097997156|../src/matrix.vhd|0*238*0x7ee0f3f5749efd92d02e9af7c702a9c774d93741|0*779*0x23b75c12e3e89f2ef000564498faa8c2
+M/matrix_arch=21|2|vef|1681097997158|../src/matrix.vhd|0*1137*0x6cb04e398dcb57c2ef26e50f31d8e8ae8942bc6d|0*1694*0x20116f55b147878295aeff36dce7fc50
+NSymbols/matrix=40|0|2*0
+R=../src/matrix.vhd|20
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|8e2d65f0f773f4b595b340cd0b0c5424d3bfb7260bd8ac2d57bbb299b9d83e60
+Version/matrix_arch=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|9640e1d2d304da9c01577dcaaef385ae18674d8e019eb9ed4e99024818c1f2f9b8fe03ae6d0b1a272941098b8d809082
+
+[matrixpak]
+E=1*1956
+I=0*3008
+M=3|2|vef|1681097997188|../src/matrixlib.vhd|0*2341*0x253e908d1bfaec65146b12993f9b20452fef5e29|0*2925*0x23b75c12e3e89f2ef000564498faa8c2
+R=../src/matrixlib.vhd|5
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|d21f3256c16d7e9367d61412508ec65999caffd51f45de267aaf10ee4a4452544acc138faaababb2f8293240e3970325
+
+[~U]
+matrix=11|0*0||0x3
+matrixpak=3|0*2079|0*2203

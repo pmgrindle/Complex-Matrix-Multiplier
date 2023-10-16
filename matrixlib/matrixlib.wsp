@@ -1,0 +1,12 @@
+[COMPILESTATUS|.\src\matrix.vhd]
+FileTimeLow=3776796979
+FileTimeHigh=31026013
+Status=Compiled
+[COMPILESTATUS|.\src\matrixlib.vhd]
+FileTimeLow=3966312714
+FileTimeHigh=31026013
+Status=Compiled
+[General]
+CurrentVersion=103
+[CACHEDOC|Aldec.Project.Generic.7|.\matrixlib\matrixlib.adf|]
+Path=

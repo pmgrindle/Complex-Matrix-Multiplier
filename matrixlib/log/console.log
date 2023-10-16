@@ -1,0 +1,13 @@
+# Library Manager: Library "matrixlib" already exists.
+acom -reorder -O3 -e 100 -work matrixlib -2002  $dsn/src/matrix.vhd $dsn/src/matrixlib.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/pgrin/Documents/active_hdl_student/memory_example/matrixlib/src/matrix.vhd
+# Compile Entity "matrix"
+# Compile Architecture "matrix_arch" of Entity "matrix"
+# File: C:/Users/pgrin/Documents/active_hdl_student/memory_example/matrixlib/src/matrixlib.vhd
+# Compile Package "matrixpak"
+# Top-level unit(s) detected:
+# Entity => matrix
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

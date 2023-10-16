@@ -1,0 +1,10 @@
+7
+~E 1 "../src/matrix.vhd" 20 matrix
+~A 1 "../src/matrix.vhd" 36 matrix_arch
+~E 1 "../src/multiplier_tb.vhd" 27 mult_tb
+~A 1 "../src/multiplier_tb.vhd" 30 TB_ARCHITECTURE
+~E 1 "../src/ram.vhd" 23 multiplier
+~A 1 "../src/multiplier.vhd" 40 mult_arch
+~E 1 "../src/ram_tb.vhd" 26 ram_tb
+~A 1 "../src/ram_tb.vhd" 29 TB_ARCHITECTURE
+~C 1 "../src/multiplier_tb.vhd" 486 testbench_for_mult
