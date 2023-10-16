@@ -9,6 +9,7 @@ Created in Aldec Active-HDL Student Edition, configuration files as well as some
 - Test Results from Running on Local FPGA
 - Cloud Hosting (with any necessesary edits of files) via Amazon F1
 - Web Interface to interact with cloud hosted project
+- Integrate testbench workflows into repository (see https://github.com/hdl-util/hdmi/actions/runs/5915874333/workflow for an example and https://purisa.me/blog/testing-hdl-on-github/ for an explanation)
 
 ## A Note on Autoconf
 
